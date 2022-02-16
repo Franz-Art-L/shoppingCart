@@ -1,0 +1,21 @@
+body {
+    background-image: url(/images/anothernapodhais.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+}
+
+#date {
+    color: white;
+}
+
+p {
+    color: white;
+}
+span {
+    color: white;
+}
+.item-name {
+    font-weight: bolder;
+    left: 70px;
+}
