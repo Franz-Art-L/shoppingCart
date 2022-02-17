@@ -1,47 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Ishoboy lets go Shopping</title>
-    <link rel="icon" href="images/cover.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/application.js"></script>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-  </head>
-  <body>
-    <h4 class="text-right">Ishoboy</h4>
-    <a href="https://time.is/UTC" id="time_is_link" rel="nofollow" style="font-size:16px">UTC/GMT:</a>
-<span id="UTC_za00" style="font-size:16px"></span>
-<script src="//widget.time.is/en.js"></script>
-<script>
-time_is_widget.init({UTC_za00:{template:"TIME<br>DATE", time_format:"12hours:minutes:secondsAMPM", date_format:"dayname, monthname dnum, year"}});
-</script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Ishoboy Shopping Cart</title>
+  <link rel="icon" href="images/cover.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/application.js"></script>
 
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+</head>
 
-    
-    <div class="container-fluid">
-
-      
+<body>
+  <a href="https://time.is/UTC" id="time_is_link" rel="nofollow" style="font-size:16px;color:yellow;background:black">UTC/GMT:</a>
+  <span id="UTC_za00" style="font-size:16px;color:yellow;background:black"></span>
+  <script src="//widget.time.is/en.js"></script>
+  <script>
+  time_is_widget.init({UTC_za00:{template:"TIME<br>DATE", time_format:"12hours:minutes:secondsAMPM", date_format:"dayname daynum/monthnum/yy"}});
+  </script>
+  
 
 
-      <h2 class="text-center">Enjoy your Shopping!</h2>
-      <div class="row">
-        <section id="item-list" class="container">
-          <div class="row item">
-            <div class="item-name col-xs-3"> Salmon </div>
-          </div>
-        </section>
+
+
+  <section class="container">
+    <div class="row">
+      <div class="cart-title col-xs-12">
+        <h2 class="text-center">Enjoy your shopping!</h2>
+        <h4 class="text-center">🛒🛍️</h4>
       </div>
+      <section id="item-list" class="container">
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <div class="row item">
+          <div class="item-name col-xs-3"> Salmon 🐠</div>
+          <div class="item-price col-xs-3">$60.00</div>
+          <div class="item-qty col-xs-3">
+            <label for="quantity">QTY</label>
+            <input class="quantity" type="number">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-warning remove">Remove</button>
+          </div>
+          <div class="item-subtotal col-xs-2">$60</div>
+        </div>
+        <br>
+
+        <div class="row item new" id="newItem">
+          <div class="col-xs-3">
+            <input type="text" placeholder="new product" id="name">
+          </div>
+          <div class="col-xs-3">
+            <input type="text" placeholder="1" id="cost">
+          </div>
+          <div class="col-xs-1">
+            <button class="btn btn-primary">Add to Cart 🛒</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="total-price-label">Total Price:</h2>
+            <div id="totalPrice"> $60</div>
+            <div id="cashShoppingBagsIcon">💵🛍️</div>
+          </div>
+        </div>
+      </section>
     </div>
-    <footer>
-      <p style="position: relative; left: 40%;"class="copyright text-muted small">Built by © <a href="https://confident-murdock-8e5bba.netlify.app/" target="_blank" rel="noopener noreferrer">Francis Artemio Landia</a>. 2022.</p>
-    </footer>
-  </body>
+  </section>
+  <hr>
+  <footer>
+    <p style="position: relative; left: 40%;" class="copyright text-muted small">Built by © <a
+        href="https://confident-murdock-8e5bba.netlify.app/" target="_blank" rel="noopener noreferrer">Francis Artemio
+        Landia</a>. 2022.</p>
+  </footer>
+</body>
+
 </html>

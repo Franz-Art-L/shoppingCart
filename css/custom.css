@@ -1,12 +1,19 @@
-body {
+@media only screen and (min-width: 1528px) {
+   body {
     background-image: url(/images/anothernapodhais.jpg);
     background-repeat: repeat;
+ 
     background-size: cover;
     color: white;
+    overflow-x: hidden;
+    }
+    
 }
 
-#date {
-    color: white;
+iframe, #timeWidget {
+    position: relative;
+    right: 130px;
+
 }
 
 p {
@@ -15,7 +22,36 @@ p {
 span {
     color: white;
 }
+
+input {
+    color: black;
+}
+
 .item-name {
     font-weight: bolder;
     left: 70px;
+}
+
+#newItem {
+    position: relative;
+    left: 70px;
+}
+
+
+#totalPrice, .total-price-label {
+    display: inline-block;
+    font-size: 34px;
+    left: 70px;
+    position: relative;
+}
+
+#cashShoppingBagsIcon {
+display: inline-block;
+    font-size: 50px;
+    left: 77px;
+    position: relative;
+}
+
+hr {
+    width: 52%;
 }
