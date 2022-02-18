@@ -18,149 +18,87 @@
 </head>
 
 <body>
+
   <a href="https://time.is/UTC" id="time_is_link" rel="nofollow" style="font-size:16px;color:yellow;background:black">UTC/GMT:</a>
   <span id="UTC_za00" style="font-size:16px;color:yellow;background:black"></span>
   <script src="//widget.time.is/en.js"></script>
   <script>
   time_is_widget.init({UTC_za00:{template:"TIME<br>DATE", time_format:"12hours:minutes:secondsAMPM", date_format:"dayname daynum/monthnum/yy"}});
   </script>
-  
-
-
-
 
   <section class="container">
     <div class="row">
-      <div class="cart-title col-xs-12">
+      <div class="shoppingCartTitle col-xs-12">
         <h2 class="text-center">Enjoy your shopping!</h2>
         <h4 class="text-center">🛒🛍️</h4>
       </div>
+      
       <section id="item-list" class="container">
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
+        
+        <div class="row">
+          <div class="col-12">
+            <table class="table table-borderless">
+              <thead class="table thead-dark">
+                <tr>
+                  <th scope="col">Product</th>
+                  <th scope="col">Price($)</th>
+                  
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Subtotal($)</th>
+                  <th></th>
+                  <th cscope="col">Remove Item</th>
+                </tr>
+              </thead>
+              <tbody class="table-striped">
+              
+                <tr>
+                  <td class="name">Shoes 👟</td>
+                  <td class="price"><input type="number" value="100" /></td>
+                  <td class="quantity"><input type="number" value="" /></td>
+                  <td class="subTotal"></td>
+                  
+                  <td></td>
+                  <td><button class="btn btn-warning btn-sm remove">remove</button></td>
+                </tr>
+
+                <tr>
+                  <td class="name">Laptop 💻</td>
+                  <td class="price"><input type="number" value="100" /></td>
+                  <td class="quantity"><input type="number" value="" /></td>
+                  <td class="subTotal"></td>
+                  
+                  <td></td>
+                  <td><button class="btn btn-warning btn-sm remove">remove</button></td>
+                </tr>
+
+              </tbody>
+            </table>
           </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
-          </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
-          </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
-          </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
-          </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
-          </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
-          </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
-          </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
-        <div class="row item">
-          <div class="item-name col-xs-3"> Salmon 🐠</div>
-          <div class="item-price col-xs-3">$60.00</div>
-          <div class="item-qty col-xs-3">
-            <label for="quantity">QTY</label>
-            <input class="quantity" type="number">
-          </div>
-          <div class="col-xs-1">
-            <button class="btn btn-warning remove">Remove</button>
-          </div>
-          <div class="item-subtotal col-xs-2">$60</div>
-        </div>
         <br>
 
-        <div class="row item new" id="newItem">
-          <div class="col-xs-3">
-            <input type="text" placeholder="new product" id="name">
-          </div>
-          <div class="col-xs-3">
-            <input type="text" placeholder="1" id="cost">
-          </div>
-          <div class="col-xs-1">
+        <form class="col-12 mt-2 mb-4" id="newItem">
+          
+            <input type="text" name="name"
+            placeholder="New Item" required>
+          
+          
+            <input type="number" placeholder="price" name="price">
+
+            <input type="number" placeholder="quantity" name="quantity">
+          
+          
             <button class="btn btn-primary">Add to Cart 🛒</button>
-          </div>
-        </div>
+          
+        </form>
+
+
+      
+
+
         <div class="row">
           <div class="col-xs-12">
-            <h2 class="total-price-label">Total Price:</h2>
-            <div id="totalPrice"> $60</div>
+            <h2 class="total-price-label">Total Price: $</h2>
+            <span id="totalPrice"></span>
             <div id="cashShoppingBagsIcon">💵🛍️</div>
           </div>
         </div>

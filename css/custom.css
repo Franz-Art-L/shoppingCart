@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1528px) {
+@media only screen and (min-width: 1843px) {
    body {
     background-image: url(/images/anothernapodhais.jpg);
     background-repeat: repeat;
@@ -7,19 +7,26 @@
     color: white;
     overflow-x: hidden;
     }
+    span {
+        color: white;
+    }
     
 }
 
+.name {
+    font-size: medium;
+}
 iframe, #timeWidget {
     position: relative;
     right: 130px;
 
 }
 
-p {
-    color: white;
+th {
+    color: black;
 }
-span {
+
+p {
     color: white;
 }
 
@@ -27,9 +34,10 @@ input {
     color: black;
 }
 
-.item-name {
+.productName {
     font-weight: bolder;
     left: 70px;
+    font-size: medium;
 }
 
 #newItem {
