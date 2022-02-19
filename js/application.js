@@ -6,7 +6,7 @@ var updateSubTotal = function(element) {
     let subTotalVal = itemPrice * quantity;
     $(element).children('.subTotal').html(subTotalVal);
     
-    return subTotalVal;
+    return subTotalVal || 0;
 }
 
 var sum = (a, b) => { return a + b; };
